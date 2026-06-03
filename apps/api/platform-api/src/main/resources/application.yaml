@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: platform-api
+
+springdoc:
+  api-docs:
+    path: /api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
