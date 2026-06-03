@@ -11,9 +11,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>identity</artifactId>
-    <name>identity</name>
-    <description>Identity and account domain primitives.</description>
+    <artifactId>tracking</artifactId>
+    <name>tracking</name>
+    <description>Live route tracking policies and session orchestration.</description>
 
     <dependencies>
         <dependency>
@@ -22,8 +22,14 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>jakarta.validation</groupId>
-            <artifactId>jakarta.validation-api</artifactId>
+            <groupId>com.bikeit</groupId>
+            <artifactId>identity</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bikeit</groupId>
+            <artifactId>commute-profile</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

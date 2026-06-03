@@ -11,14 +11,19 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>identity</artifactId>
-    <name>identity</name>
-    <description>Identity and account domain primitives.</description>
+    <artifactId>commute-profile</artifactId>
+    <name>commute-profile</name>
+    <description>User commute profile and route preferences.</description>
 
     <dependencies>
         <dependency>
             <groupId>com.bikeit</groupId>
             <artifactId>shared-kernel</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bikeit</groupId>
+            <artifactId>identity</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

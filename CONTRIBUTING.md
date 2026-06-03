@@ -1,4 +1,4 @@
-# Contributing to BikeIt Userland Migration
+# Contributing to BikeIt
 
 Thank you for your interest in contributing to this project! We value contributions from the community and want to make the process as smooth as possible.
 

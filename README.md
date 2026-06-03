@@ -47,5 +47,5 @@ provided in this repository or profile.
 
 This project is shared publicly for transparency, feedback, and collaboration.
 
-Please refer to the repository license and any additional licensing terms before using, copying, 
+Please refer to the repository [LICENSE](LICENSE) and any additional licensing terms before using, copying, 
 modifying, or distributing this project.

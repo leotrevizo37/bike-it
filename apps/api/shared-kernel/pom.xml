@@ -11,23 +11,14 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>identity</artifactId>
-    <name>identity</name>
-    <description>Identity and account domain primitives.</description>
+    <artifactId>shared-kernel</artifactId>
+    <name>shared-kernel</name>
+    <description>Shared value objects used by backend modules.</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.bikeit</groupId>
-            <artifactId>shared-kernel</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>jakarta.validation</groupId>
             <artifactId>jakarta.validation-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
         </dependency>
     </dependencies>
 </project>
